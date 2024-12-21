@@ -1,0 +1,118 @@
+nav a{
+    color: blue;
+}
+.me{
+    text-align: center;
+    margin: 14px;
+    height: 500px;
+    width: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: 200px;
+    gap: 5px;
+    border-radius: 15px;
+}
+.jumbotron h1{
+    font-size: 60px;
+}
+.jumbotron p{
+    font-size: 30px;
+}
+.banner{
+    background-image: url(../image/backg.avif);
+    padding-top: 150px;
+    padding-bottom: 150px;
+    color: white;
+
+}
+.titleAnim{
+    animation-name: myanim;
+    animation-duration: 2s;
+    position: relative;
+}
+@keyframes myanim{
+    0% {opacity: 0.1; top: 0px}
+    100% {opacity: 1.0; top:100px}
+}
+.features i{
+    color: rgb(28, 111, 189);
+    font-size: 30px;
+    padding: 30px;
+    border: 1px solid;
+    border-color: rgb(216, 181, 181);
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    margin: 30px 40px 10px 40px;
+}
+.features i:hover{
+    color: rgb(245, 236, 236);
+    background-color: rgb(97, 140, 233);
+}
+.features p{
+    font-weight: bold;
+}
+.he{
+    margin: 20px;
+}
+.testimonysection{
+    background-color: gray;
+}
+.cta{
+    background-color: rgb(226, 224, 224);
+}
+.footer{
+    background-color: rgb(60, 49, 124);
+}
+.bg{
+    background-color: rgb(60, 49, 124);
+    padding-top: 20px;
+}
+.bed p{
+    background-color: black;
+    padding: 5px;
+}
+.nav-link{
+    background-color: black;
+    color: white;
+    margin-top: 5px;
+    border-radius: 2px;
+}
+.nav-link:hover{
+    background-color: rgb(37, 57, 238);
+    color: white;
+}
+.recent-courses .left{
+    background-color: black;
+    border-right: 5px solid blue;
+    margin-bottom: 4px;
+}
+.recent-courses .left:hover{
+    background-color: rgb(86, 102, 240);
+}
+.recent-courses .left:hover .bottom{
+    background-color: rgb(37, 57, 238);
+}
+.recent-courses .bottom{
+    color: white;
+}
+.recent-courses .top{
+    border-bottom: 1px solid gray;
+    padding-bottom: 1px;
+}
+
+.copyrightbar{
+    background-color: rgb(60, 49, 124);
+    border-top: 1px solid rgb(190, 190, 218);
+    margin-top: 15px;
+}
+.courses img:hover{
+    opacity: 0.5;
+    transform: translate(0px, -8px);
+    transition: transform 0.5s;
+}
+
+.copyrightbar a:hover{
+    opacity: 0.5;
+    transform: translate(0px, -8px);
+}
